@@ -31,7 +31,7 @@ def self.cards_total(cards)
   total #should be initialized with 0
   for card in cards
     total += card.value
-    return "You have a total of" + total #the return statement should be after the for loop
+    return "You have a total of" + total #the return statement should be after the for loop and the total should be converted to string
   end
 end
 
