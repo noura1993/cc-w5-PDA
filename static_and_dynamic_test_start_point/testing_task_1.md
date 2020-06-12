@@ -9,7 +9,7 @@
 class CardGame
 
 
-  def checkforAce(card)
+  def checkforAce(card) #not an error but the convention is to use snake case in naming methods rather than camel case
     if card.value = 1   #we should write == instead of =
       return true
     else
@@ -17,6 +17,7 @@ class CardGame
     end
   end
 
+#not an error but the indentation is not right
   dif highest_card(card1 card2) #def not dif, and put a comma between the arguments -> (card1, card2)
   if card1.value > card2.value
     return card #it should be card1
@@ -33,4 +34,6 @@ def self.cards_total(cards)
     return "You have a total of" + total #the return statement should be after the for loop
   end
 end
+
+#should be end for the card game class
 ```
